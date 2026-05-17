@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "length",
+        "paper",
+        "style"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "You are an expert AI researcher and academic writer.\n\nYour task is to summarize a research paper based on the given requirements.\n\nResearch Paper: {paper}\nSummary Style: {style}\nSummary Length: {length}\n\nInstructions based on style:\n- If Beginner-Friendly: Use simple language, avoid jargon, use analogies and real-world examples\n- If Technical: Use precise terminology, focus on methodology, architecture and implementation details\n- If Code Oriented: Focus on practical implementation, include pseudocode or code snippets where relevant\n- If Mathematical: Focus on equations, proofs, mathematical formulations and theoretical foundations\n\nInstructions based on length:\n- If Short (1-2 sentences): Capture only the core contribution and key result\n- If Medium (1-2 paragraphs): Cover problem statement, approach and results\n- If Long (1-2 pages): Cover background, problem, methodology, results, limitations and future work\n\nNow write a {style} summary of the paper \"{paper}\" in {length} length.\n",
+    "template_format": "f-string",
+    "validate_template": false,
+    "_type": "prompt"
+}

@@ -1,0 +1,20 @@
+{
+    "title": "Student",
+    "description": "A student object representing a student in a school.",
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string",
+            "description": "The name of the student."
+        },
+        "age": {
+            "type": "integer",
+            "description": "The age of the student."
+        },
+        "grade": {
+            "type": "string",
+            "description": "The grade level of the student."
+        }
+    },
+    "required": ["name"]
+}

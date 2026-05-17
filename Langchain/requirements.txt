@@ -1,0 +1,35 @@
+# Google Gemini (PALM) Integration
+langchain-google-genai
+google-generativeai
+sentence-transformers
+
+#Models
+langchain-groq
+langchain-anthropic
+langchain-google-genai
+langchain-huggingface
+
+streamlit
+
+
+# Hugging Face Integration
+transformers
+torch
+huggingface-hub
+
+
+# Environments Variable Managements
+python-dotenv
+
+# Machine Learning Utilities
+numpy
+scikit-learn
+
+pydantic
+langchain
+
+# for graph
+grandalf
+
+langchain_community
+pypdf
